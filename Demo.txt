@@ -1,1 +1,15 @@
 Learn git
+
+
+A Clone project trong video, sau e đọc file trong đó để lấy các câu lệnh về nhé
+
+
+a sửa file này, h a sẽ commit vs đẩy nó lên trên server(trên mạng ấy)
+
+
+git add .
+git commit -m "update file demo"
+git push -u origin master(vì e đang ở nhánh master)
+
+
+Kiểm tra mình đang ở nhánh nào -> git branch(master)
