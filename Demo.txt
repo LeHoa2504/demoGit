@@ -13,3 +13,102 @@ git push -u origin master(vì e đang ở nhánh master)
 
 
 Kiểm tra mình đang ở nhánh nào -> git branch(master)
+
+
+A clone project mà a hướng dẫn về máy e, sau có gì vào đó lấy file text đọc nó và xem hướng dẫn video nhé
+
+
+Cái này sau phải xem video và thực hành nhớ thôi
+nếu e hiểu được thì đã pro rồi.....
+@@
+H chưa cần hiểu, phải thuộc các lệnh và biết nó làm gì đã
+sau đó mình ms áp dụng
+
+H a sẽ clone(= tải về) 
+Git nó có hỗ trợ tải về bằng lệnh: 
+git clone https://github.com/duyhoangptit/demoGit.git
+
+
+remote: Permission to duyhoangptit/demoGit.git denied to LeHoa2504.
+
+
+Nó lỗi vì project đó a tạo, nếu e push ltinh lên thì sẽ ko bảo mật, vậy nên git nó có cơ chế chia sẻ
+có nghĩa là khi a cho phép thì e ms được push lên như thế.
+Chưa cần hiểu lắm, cơ mà a đã clone project của a(Chính là tài liệu trong hướng dẫn video ấy)
+E xem và thực hành đi thực hành lại được rồi đó.
+
+
+H e thực hành là commit phần a gõ vào này lên server theo các lệnh
+git add .
+git commit -m "comment tùy ý"
+git push -u origin master
+
+Ok chưa, đừng cố hiểu khi chưa nhớ lệnh, a cũng vậy khi ms học mà
+
+làm mà ko hiểu ức chế bỏ xừ đi dk, vs cả nãy h a lm cái j a có hình dung ra dk đâu, h a bảo e đẩy lên server e còn chả biết nó là cái j
+
+Vậy nên, e ms phải xem video, xem nhuwnggx lệnh, cũng như mới đầu cần phải làm gì
+Việc a thao tác chỉ là fix lỗi mà khi e commit lên không được thôi
+
+H xem video lại, và xem file.txt trong project a vừa clone về ấy.
+1. Xem lại video git 1
+2. Tham chiếu vào 2 file learn git và learn git 1 trong folder D:\Program Files\Git HoangTD\demoGit
+3. Thực hành vs việc tạo repository và thực hiện các lệnh cơ bản
+
+
+git clone id-branch
+git status/ Kiểm tra xem có file nào đang sửa mà chưa commit
+git commit -m "noi dung commit"/ Đẩy những file đang sửa lên git local
+git push -u origin/branch/ Đẩy git từ local lên git server
+git branch nameBranch/ tạo branch
+git branch/ kiểm tra xem đang đứng branch(nhánh) nào
+git checkout branch nameBranch/ di chuyển từ nhánh hiện tại sang nhánh nameBranch
+git show/ Xem id commit hiện tại
+git init/ tạo 1 repository git
+git pull/Lấy code trên nhánh về khi có người khác update
+git config --global user.email "you@example.com"/ Config email commit
+git config --global user.name "Your Name"/ Config name commit
+
+
+Các lệnh a đã giải thích, về luồng đi a cũng đã giải thích
+Nếu thấy a làm khó hiểu, thì có thể vào trang https://git-scm.com/book/vi/v1/B%E1%BA%AFt-%C4%90%E1%BA%A7u-C%C6%A1-B%E1%BA%A3n-v%E1%BB%81-Git
+Tiếng việt để đọc or xem list video 
+https://www.youtube.com/watch?v=euzksfFZ29Q&list=PLX0yQghRScnHBH0DgN9BlrvAdc6hBPieH
+
+=>Quan trọng là mụ học gì, cần gì và làm gì thôi. Có gì ko hiểu nt sky cho a nhé. cái j e cũng ko hiểu, khó bỏ xừ đi dk
+
+Em có thể k học và k cần học gì cả. a k cmt
+Mới đầu cái gì lạ đều khó cả. Giống như a học tiếng nhật sau nghỉ. Cơ mà a sẽ học lại. Quna trọng có quyết tâm học k ấy
+Dây là cơ hội cho mụ, cả về việc làm cũng như kiến thức thực tế sau này đi làm cần. Chẳng học những cái này 
+thì a k biết cái gì nữa.
+
+
+->  Remove ngay suy nghĩ khó, vs cả sợ k học được. A tin mụ học được, chỉ là mụ chưa biết phải học vs lam gì thôi
+
+ A đã comment việc cần phải làm, e cứ làm theo nó.
+ H xem video lại, và xem file.txt trong project a vừa clone về ấy.
+1. Xem lại video git 1
+2. Tham chiếu vào 2 file learn git và learn git 1 trong folder E// cái này là lm j
+// Cái đường dẫn này để e vào xem file cho nhanh, a sợ khi e back ra folder khác thì e lại k biết xem nó ở đâu
+e k hỏi cái đường dẫn, e hỏi bước này a muốn e lm j
+// Xem video, đọc file trong folder này. Vì file trong folder này chính là các lệnh or đoạn a gõ trong 
+video ấy.
+
+3. Thực hành vs việc tạo repository và thực hiện các lệnh cơ bản
+// e ko tạo lại repository nữa đâu, có j đâu mà phải tạo lại, e lm cái cũ còn chưa xong nữa là
+// k tạo cũng k sao
+
+git clone id-branch
+git status/ Kiểm tra xem có file nào đang sửa mà chưa commit
+git commit -m "noi dung commit"/ Đẩy những file đang sửa lên git local
+git push -u origin/branch/ Đẩy git từ local lên git server
+git branch nameBranch/ tạo branch
+git branch/ kiểm tra xem đang đứng branch(nhánh) nào
+git checkout branch nameBranch/ di chuyển từ nhánh hiện tại sang nhánh nameBranch
+git show/ Xem id commit hiện tại
+git init/ tạo 1 repository git
+git pull/Lấy code trên nhánh về khi có người khác update
+git config --global user.email "you@example.com"/ Config email commit
+git config --global user.name "Your Name"/ Config name commit
+
+
